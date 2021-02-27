@@ -1,6 +1,6 @@
 # 1.Models_of_Single_Neuron
 Simple Models of Single Neuron in Rodent Brains  
-# WB
+# 1.WB
 ## Wang-Buzsaki Model of an Inhibitory Interneuron in Rat Hippocampus.
 
 Wang and Buzsaki proposed a model of an inhibitory basket cell in rat hippocampus. Basket cells derive their name from the fact that the branches of their
@@ -61,7 +61,7 @@ Run under a Intel® Core™ i7-6700HQ CPU @ 2.60GHz × 64 based processor with 1
  
  
  
- # RTM
+ # 2.RTM
 ## Reduced Traub-Miles Model of a Pyramidal Neuron in Rat Hippocampus.
 
 This is a slight modification of a model due to Ermentrout and Kopell, which in turn is a substantial simplification of a model of a pyramidal excitatory cell in rat hippocampus due to Traub and Miles. The functions αx and βx are
