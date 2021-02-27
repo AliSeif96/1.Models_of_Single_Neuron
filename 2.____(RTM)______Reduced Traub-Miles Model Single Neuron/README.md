@@ -4,13 +4,13 @@
 This is a slight modification of a model due to Ermentrout and Kopell, which in turn is a substantial simplification of a model of a pyramidal excitatory cell in rat hippocampus due to Traub and Miles. The functions αx and βx are
  
 <p align="center">
- <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/1.____(WB)______Wang-Buzsaki%20Model%20Single%20Neuron/Book/2.png?raw=true" >
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/2.____(RTM)______Reduced%20Traub-Miles%20Model%20Single%20Neuron/Book/2.png?raw=true" >
  </p>
 
 Figure 5.2 in book shows a voltage trace with I = 1.5 μA/cm2.
 
 <p align="center">
- <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/1.____(WB)______Wang-Buzsaki%20Model%20Single%20Neuron/Book/1.png?raw=true" >
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/2.____(RTM)______Reduced%20Traub-Miles%20Model%20Single%20Neuron/Book/1.png?raw=true" >
  </p>
 
 ## C++
@@ -44,5 +44,5 @@ Run under a Intel® Core™ i7-6700HQ CPU @ 2.60GHz × 64 based processor with 1
 
 
 <p align="center">
- <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/1.____(WB)______Wang-Buzsaki%20Model%20Single%20Neuron/C++/Picture/pic1.png?raw=true" >
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/2.____(RTM)______Reduced%20Traub-Miles%20Model%20Single%20Neuron/C++/Picture/1.png?raw=true" >
  </p>
