@@ -59,7 +59,8 @@ Run under a Intel® Core™ i7-6700HQ CPU @ 2.60GHz × 64 based processor with 1
  
  
  
- 
+_________________________________
+----------------------------------
  
  # 2.RTM
 ## Reduced Traub-Miles Model of a Pyramidal Neuron in Rat Hippocampus.
