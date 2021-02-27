@@ -26,14 +26,14 @@ The most striking difference between Figs. 5.3 is that the spike afterhyperpolar
 
 
 
-/************************************************************************************************/
-/*** Topic: Wang-Buzsaki model with Runge-Kutta 4th Order Method for one neuron    Ali-Seif   ***/
-/*** Version Release 17.12 rev 11256                                                          ***/
-/*** Date: 2/27/2021                                                                          ***/
-/*** Code implemented in Microsoft Visual Studio Enterprise 2019 C++ compiler                 ***/
-/*** MSI: PX60 6QD/ DDR4                                                                      ***/
-/*** Run under a Intel® Core™ i7-6700HQ CPU @ 2.60GHz × 64 based processor with 16 GB RAM     ***/
-/************************************************************************************************/
+
+Topic: Wang-Buzsaki model with Runge-Kutta 4th Order Method for one neuron    Ali-Seif
+Version Release 17.12 rev 11256
+Date: 2/27/2021
+Code implemented in Microsoft Visual Studio Enterprise 2019 C++ compiler
+MSI: PX60 6QD/ DDR4
+Run under a Intel® Core™ i7-6700HQ CPU @ 2.60GHz × 64 based processor with 16 GB RAM
+
 
 
 <p align="center">
