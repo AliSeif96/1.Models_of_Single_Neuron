@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\1.____(WB)______Wang-Buzsaki Model Single Neuron\Project2\Project2\Source.cpp(68,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Project2.vcxproj -> E:\1.____(WB)______Wang-Buzsaki Model Single Neuron\Project2\Debug\Project2.exe
