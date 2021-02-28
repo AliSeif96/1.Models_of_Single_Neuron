@@ -1,33 +1,38 @@
-# WB
-## Wang-Buzsaki Model of an Inhibitory Interneuron in Rat Hippocampus.
+# Erisir
+## Erisir Model of an Inhibitory Interneuron in Mouse Cortex.
 
-Wang and Buzsaki proposed a model of an inhibitory basket cell in rat hippocampus. Basket cells derive their name from the fact that the branches of their
-axonal arbors form basket-like structures surrounding the cell bodies of othercells.
-
-Two different classes of inhibitory basket cells are ubiquitous in the brain, the parvalbumin-positive (PV+) basket cells, which contain the protein parvalbumin, and the cholecystokinin-positive (CCK+) basket cells, which contain the hormone cholecystokinin. The PV+ basket cells are called fast-firing because they are capable of sustained high-frequency firing, and are known to play a central role in the generation of gamma frequency (30–80 Hz) oscillations. It is thought that gamma rhythms are important for sensory processing, attention, and working memory. The WB model is patterned after the fast-firing PV+ basket cells.
+Erisir et al. [45] proposed a model of an inhibitory interneuron in mouse somatosensory cortex. With minor modifications discussed in detail in [17], the model takes the same form as the RTM and WB models, except that the potassium conductance is gKn2, not gKn4; the significance of this difference will be discussed at the end of this section. For the constants. The functions αx and βx are
 
  The functions αx and βx are
  
 <p align="center">
- <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/1.____(WB)______Wang-Buzsaki%20Model%20Single%20Neuron/Book/2.png?raw=true" >
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/3.____(Erisir)______ErisirModel%20Single%20Neuron/Book/Untitled.png?raw=true" >
  </p>
 
-Figure 5.3 in book shows a voltage trace with I = 0.75 μA/cm2.
+Figure 5.4 shows a voltage trace with I = 7 μA/cm2.
 
 <p align="center">
- <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/1.____(WB)______Wang-Buzsaki%20Model%20Single%20Neuron/Book/1.png?raw=true" >
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/3.____(Erisir)______ErisirModel%20Single%20Neuron/Book/Untitled2.png?raw=true" >
  </p>
 
-The most striking difference between Figs. 5.3 is that the spike afterhyperpolarization, i.e., the hyperpolarization following an action potential, is far less deep in the WB model than in the RTM model. The difference between the lowest value of v and the firing threshold is about 15 mV in Fig. 5.3. This is in agreement with experimental results for fast-firing inhibitory interneurons; see references in. (See, however, also the voltage traces of cortical interneurons and pyramidal cells in Figs. 1C and 1E of. There the spike afterhyperpolarization is significantly more pronounced in the interneurons than in the pyramidal cells.) The spike afterhyperpolarization is less pronounced for the WB model than for the RTM model because the maximal conductance densities gNa and gK are smaller. Deeper afterhyperpolarization would be obtained if gNa and gK were raised (exercise 5), or h and n made slower. In fact, the Wang-Buzs´aki model as stated in included a scaling factor φ in front of the formulas for αh, βh, αn, and βn. Wang and Buzs´aki chose φ = 5. This choice is built into the equations as stated above. However, they pointed out that reducing φ, which amounts to reducing αh, βh, αn, and βn, i.e., to slowing down h and n, makes spike afterhyperpolarization more pronounced.
+Note that gNa and gK are quite large in the Erisir model, even larger than in the RTM model. As a result, the voltage rises almost to vNa during an action potential, and falls almost to vK immediately following an action potential. The leak conductance density gL is large as well.
+What is the significance of taking the potassium conductance to be gKn2, not gKn4? The main answer is that it does not appear to matter very much; compare Fig. 5.5, where we have used gKn4 instead of gKn2, with Fig. 5.4. In detail, using gKn2 instead of gKn4 has the following effects, which one can see when comparing Figs. 5.4 and 5.5.
 
+1. As n rises to values near 1 during a spike, the potassium conductance responds more rapidly when the exponent is 2, not 4. Therefore the spike termination mechanism becomes faster, and the spikes become narrower.
+2. As n falls to values near 0 following a spike, the potassium conductance follows less rapidly when the exponent is 2, not 4. This has the effect that the hyperpolarization following a spike is deeper.
+3. Surprisingly, even though the potassium current is hyperpolarizing, and gKn2 is greater than gKn4 for 0 <n< 1, firing is slightly faster with gKn2 than with gKn4. In essence, this is explained by the fact that the narrower action potentials in Fig. 5.4 allow less time for deep inactivation of the sodium current.
+
+<p align="center">
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/3.____(Erisir)______ErisirModel%20Single%20Neuron/Book/Untitled3.png?raw=true" >
+ </p>
 
 ## C++
-### Wang-Buzsaki model with Runge-Kutta 4th Order Method for one neuron
+### Erisir model with midle point Method for one neuron
 
 
 
 
-Topic: Wang-Buzsaki model with Runge-Kutta 4th Order Method for one neuron    Ali-Seif
+Topic: Erisir model with midle point Method for one neuron    Ali-Seif
 
 
 
@@ -35,7 +40,7 @@ Version Release 17.12 rev 11256
 
 
 
-Date: 2/27/2021
+Date: 3/2/2021
 
 
 
@@ -52,5 +57,9 @@ Run under a Intel® Core™ i7-6700HQ CPU @ 2.60GHz × 64 based processor with 1
 
 
 <p align="center">
- <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/1.____(WB)______Wang-Buzsaki%20Model%20Single%20Neuron/C++/Picture/pic1.png?raw=true" >
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/3.____(Erisir)______ErisirModel%20Single%20Neuron/C++/Picture/Untitled.png?raw=true" >
+ </p>
+
+<p align="center">
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/3.____(Erisir)______ErisirModel%20Single%20Neuron/C++/Picture/Untitled4.png?raw=true" >
  </p>
