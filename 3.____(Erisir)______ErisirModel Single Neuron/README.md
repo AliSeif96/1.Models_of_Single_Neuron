@@ -63,3 +63,17 @@ Run under a Intel® Core™ i7-6700HQ CPU @ 2.60GHz × 64 based processor with 1
 <p align="center">
  <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/3.____(Erisir)______ErisirModel%20Single%20Neuron/C++/Picture/Untitled4.png?raw=true" >
  </p>
+
+
+
+## MATLAB
+### Erisir model with midle point Method for one neuron
+
+
+<p align="center">
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/3.____(Erisir)______ErisirModel%20Single%20Neuron/MATLAB/Picture/Untitled.png?raw=true" >
+ </p>
+
+<p align="center">
+ <img src="https://github.com/aliseif321/1.Models_of_Single_Neuron/blob/main/3.____(Erisir)______ErisirModel%20Single%20Neuron/MATLAB/Picture/Untitled2.png?raw=true" >
+ </p>
