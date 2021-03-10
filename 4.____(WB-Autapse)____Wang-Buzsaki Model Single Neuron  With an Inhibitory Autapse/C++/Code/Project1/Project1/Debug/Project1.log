@@ -1,0 +1,5 @@
+﻿  Source.cpp
+E:\1.Models_of_Single_Neuron\4.____(WB-Autapse)____Wang-Buzsaki Model Single Neuron  With an Inhibitory Autapse\C++\Code\Project1\Project1\Source.cpp(86,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\1.Models_of_Single_Neuron\4.____(WB-Autapse)____Wang-Buzsaki Model Single Neuron  With an Inhibitory Autapse\C++\Code\Project1\Project1\Source.cpp(91,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\1.Models_of_Single_Neuron\4.____(WB-Autapse)____Wang-Buzsaki Model Single Neuron  With an Inhibitory Autapse\C++\Code\Project1\Project1\Source.cpp(104,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Project1.vcxproj -> E:\1.Models_of_Single_Neuron\4.____(WB-Autapse)____Wang-Buzsaki Model Single Neuron  With an Inhibitory Autapse\C++\Code\Project1\Debug\Project1.exe
